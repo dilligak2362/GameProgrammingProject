@@ -5,11 +5,6 @@ using UnityEngine;
 public class Animations : MonoBehaviour
 {
     private Animator anim;
-    public float cooldownTime = 2f;
-    private float nextFireTime = 0f;
-    public static int noOfClicks = 0;
-    float lastClickedTime = 0;
-    float maxComboDelay = 1;
     public bool animation_bool;
 
 

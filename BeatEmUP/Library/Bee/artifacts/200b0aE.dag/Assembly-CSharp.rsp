@@ -352,6 +352,7 @@
 "Assets/Scripts/Gun.cs"
 "Assets/Scripts/Helpers.cs"
 "Assets/Scripts/PlayerController.cs"
+"Assets/Scripts/Slashing.cs"
 -langversion:9.0
 
 /deterministic
