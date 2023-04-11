@@ -8,7 +8,7 @@ public class Slashing : MonoBehaviour
     {
         if (collider.gameObject.CompareTag("Enemies"))
         {
-            Destroy(collider.gameObject);
+            collider.gameObject.GetComponent<EnemyHealth>().TakeDamage(1);
         }     
     }
 }

@@ -1,1 +1,1 @@
-Temp/ScriptUpdater/325267976/285014947_Fighter.cs => Assets/Scripts/Fighter.cs
+Temp/ScriptUpdater/325267976/800178422_Bullet.cs => Assets/Scripts/Bullet.cs

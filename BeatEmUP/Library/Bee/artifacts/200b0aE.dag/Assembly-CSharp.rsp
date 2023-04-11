@@ -349,6 +349,7 @@
 "Assets/Scripts/Animations.cs"
 "Assets/Scripts/Bullet.cs"
 "Assets/Scripts/CameraFollow.cs"
+"Assets/Scripts/EnemyHealth.cs"
 "Assets/Scripts/Gun.cs"
 "Assets/Scripts/Helpers.cs"
 "Assets/Scripts/PlayerController.cs"
