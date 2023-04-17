@@ -352,6 +352,9 @@
 "Assets/Scripts/EnemyHealth.cs"
 "Assets/Scripts/Gun.cs"
 "Assets/Scripts/Helpers.cs"
+"Assets/Scripts/Meat.cs"
+"Assets/Scripts/MeatCounter.cs"
+"Assets/Scripts/MeatDrop.cs"
 "Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/Slashing.cs"
 -langversion:9.0

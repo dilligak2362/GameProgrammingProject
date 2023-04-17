@@ -7,6 +7,7 @@ public class EnemyHealth : MonoBehaviour
 
     public int maxHealth = 3;
     public int currentHealth;
+    public MeatDrop meat;
   
     void Start()
     {
@@ -25,6 +26,7 @@ public class EnemyHealth : MonoBehaviour
         if(currentHealth <= 0)
         {
             Destroy(gameObject);
+            meat.DropMeat();
         }
     }
 }

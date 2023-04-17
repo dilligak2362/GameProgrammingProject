@@ -5,6 +5,7 @@ using UnityEngine;
 public class Bullet : MonoBehaviour
 {
     public float life = 3;
+    public MeatDrop meatt;
 
     void Awake()
     {
@@ -18,5 +19,6 @@ public class Bullet : MonoBehaviour
             collision.gameObject.GetComponent<EnemyHealth>().TakeDamage(1);
         }
         Destroy(gameObject);
+        meatt.DropMeat();
     }
 }
