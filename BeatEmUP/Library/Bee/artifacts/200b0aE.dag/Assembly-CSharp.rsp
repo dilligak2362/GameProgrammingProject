@@ -352,6 +352,7 @@
 "Assets/Scripts/CameraFollow.cs"
 "Assets/Scripts/EnemyHealth.cs"
 "Assets/Scripts/Gun.cs"
+"Assets/Scripts/Health.cs"
 "Assets/Scripts/Helpers.cs"
 "Assets/Scripts/Meat.cs"
 "Assets/Scripts/MeatCounter.cs"

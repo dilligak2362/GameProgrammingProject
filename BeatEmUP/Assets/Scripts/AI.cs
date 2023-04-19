@@ -31,15 +31,15 @@ public class AI : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D collider)
+    private void OnCollisionEnter(Collision collider)
     {
-        if (collider.CompareTag("Player"))
+        if (collider.gameObject.CompareTag("Player"))
         {
-            /*if(collider.GetComponent<Health>() != null)
+            if(collider.gameObject.GetComponent<Health>() != null)
             {
-                collider.GetComponent<Health>().Damage(damage);
-                this.GetComponent<Health>().Damage(10000);
-            } */
+                collider.gameObject.GetComponent<Health>().Damage(damage);
+                
+            } 
         } 
     }
 }
