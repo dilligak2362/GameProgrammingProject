@@ -6,7 +6,7 @@ public class Meat : MonoBehaviour
 {
     public int value;
 
-    void OnTriggerEnter(Collider collide)
+    void OnCollisionEnter(Collision collide)
     {
         if (collide.gameObject.CompareTag("Player"))
         {
