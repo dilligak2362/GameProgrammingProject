@@ -269,3 +269,15 @@ Received Import Request.
   path: Assets/Scenes/SampleScene.unity
   artifactKey: Guid(9a10e0e24602946818272824a28d6c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scenes/SampleScene.unity using Guid(9a10e0e24602946818272824a28d6c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2b58e6a22f8de957fc4ed28485d1f27') in 0.015168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1424.974966 seconds.
+  path: Assets/MagicProjectile/Projectile.obj
+  artifactKey: Guid(9a35be7163573ce4ab9ef94722eb1f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicProjectile/Projectile.obj using Guid(9a35be7163573ce4ab9ef94722eb1f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0909f8a576d784aea6497e558d89d7ed') in 0.595551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.366826 seconds.
+  path: Assets/Projectile.png
+  artifactKey: Guid(ea11a62a9910a864baa695475f3498a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Projectile.png using Guid(ea11a62a9910a864baa695475f3498a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2131aa13ff1fcf934f7b27334e7b7bd6') in 4.647507 seconds 
