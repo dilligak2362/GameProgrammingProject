@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 7953383986502724502}
   m_Layer: 0
   m_Name: MalnurishGoblin
-  m_TagString: Untagged
+  m_TagString: Enemies
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -69,7 +69,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 1
   currentHealth: 0
-  meat: {fileID: 0}
+  meat: {fileID: 3361577391904088829}
 --- !u!54 &2387685242163733289
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -98,7 +98,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52f378f448df34282a9511c02282714f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MeatModel: {fileID: 0}
+  MeatModel: {fileID: 4033359954362253559, guid: 250942eaf088862498d406744bdeb8dc, type: 3}
   health: 100
   transform: {fileID: 6574435926314738137}
 --- !u!114 &7953383986502724502
@@ -113,7 +113,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77ba9e90487d4f1884168eb644bebe3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
+  target: {fileID: 4727366034766585678, guid: 549697d46279aa1459e2b37cd82e311b, type: 3}
   range: 100000
   damage: 2
   speed: 5

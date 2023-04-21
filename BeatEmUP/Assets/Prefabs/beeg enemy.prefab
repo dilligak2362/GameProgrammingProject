@@ -145,7 +145,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52f378f448df34282a9511c02282714f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MeatModel: {fileID: 8971837636735548169, guid: 3b04e7da6cec140e582a38dc6e6aa3a5, type: 3}
+  MeatModel: {fileID: 4033359954362253559, guid: 250942eaf088862498d406744bdeb8dc, type: 3}
   health: 100
   transform: {fileID: 8301823819006384522}
 --- !u!114 &8301823819006384526
