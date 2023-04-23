@@ -53,8 +53,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 2.0845838, y: 6.518841, z: 2.5236928}
+  m_Center: {x: 0.2269509, y: 2.7594204, z: 0.044804063}
 --- !u!114 &26196933280541465
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -602,6 +602,22 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dec1717418fd46f4ca356e3e102a9519, type: 3}
       propertyPath: m_Name
       value: gMalNuriosHead
+      objectReference: {fileID: 0}
+    - target: {fileID: 1151388028547126963, guid: dec1717418fd46f4ca356e3e102a9519, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.9636
+      objectReference: {fileID: 0}
+    - target: {fileID: 1151388028547126963, guid: dec1717418fd46f4ca356e3e102a9519, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.2854
+      objectReference: {fileID: 0}
+    - target: {fileID: 1151388028547126963, guid: dec1717418fd46f4ca356e3e102a9519, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0691
+      objectReference: {fileID: 0}
+    - target: {fileID: 1151388028547126963, guid: dec1717418fd46f4ca356e3e102a9519, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.2569
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dec1717418fd46f4ca356e3e102a9519, type: 3}
