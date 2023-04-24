@@ -624,7 +624,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4354b7d2531864e80862e20209130b35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 1
+  maxHealth: 20
   currentHealth: 0
   meat: {fileID: 2290784035341868845}
 --- !u!54 &1174881163240660729
@@ -656,7 +656,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MeatModel: {fileID: 4033359954362253559, guid: 250942eaf088862498d406744bdeb8dc, type: 3}
-  health: 100
+  health: 20
   transform: {fileID: 7661134818084854793}
 --- !u!114 &6849095125413074502
 MonoBehaviour:

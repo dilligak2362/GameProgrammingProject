@@ -4,22 +4,25 @@ using UnityEngine;
 
 public class NewSlashing : MonoBehaviour
 {
-    public float speed = 10;
+    public float speed = 100;
     private Quaternion originalPos;
+
+    [SerializeField]
+    private Transform armTransform;
 
     void Start()
     {
-        originalPos = transform.localRotation;
+        originalPos = armTransform.localRotation;
     }
 
     
     void Update()
     {
         if (Input.GetKey(KeyCode.Space))
-            transform.Rotate(Vector3.forward * speed * Time.deltaTime);
+            armTransform.Rotate(Vector3.right * speed * Time.deltaTime);
         else
         {
-            transform.localRotation = originalPos;
+            armTransform.localRotation = originalPos;
         }
     }
 }

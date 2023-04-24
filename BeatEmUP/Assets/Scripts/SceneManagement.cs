@@ -7,6 +7,7 @@ public class SceneManagement : MonoBehaviour
 {
     public void PlayGame()
     {
+        Spawner.enemies = new List<GameObject>();
         SceneManager.LoadScene(1);
         Time.timeScale = 1f;
     }
